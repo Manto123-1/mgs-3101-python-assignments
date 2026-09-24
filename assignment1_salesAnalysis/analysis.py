@@ -20,3 +20,9 @@ if total_revenue >= 500:
     print("yes,at least $500")
 else:
     print("no,less than $500")
+
+#save results to a file
+file = open("sales_report.txt","w")
+file.write("Shop: " + shop_name + "\n")
+file.write("Total revenue: $" + str(total_revenue)+"\n")
+file.close()
