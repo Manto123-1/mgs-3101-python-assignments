@@ -8,3 +8,15 @@ pastry_sold= 33
 drink_revenue= drinks_sold*drink_price
 pastry_revenue=pastry_sold*pastries_price
 total_revenue= drink_revenue+pastry_revenue
+
+#check the numbers
+print("shop:", shop_name)
+print("dirink revenue:",drink_revenue)
+print("pastry revenue:", pastry_revenue)
+print("total:", total_revenue)
+
+#check total >=500
+if total_revenue >= 500:
+    print("yes,at least $500")
+else:
+    print("no,less than $500")
